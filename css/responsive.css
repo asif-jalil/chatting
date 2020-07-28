@@ -1,0 +1,397 @@
+@media (min-width: 1700px) {
+  .task-btn .btn-primary {
+    width: 50%;
+    padding: 12px 0;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .data-entry .form-select {
+    width: 35%;
+  }
+
+}
+
+@media (min-width: 1330px) and (max-width:1499px) {
+  .data-entry .form-select {
+    width: 42%;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1600px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .task-menu .nav .nav-item i {
+    margin-right: 8px;
+  }
+
+  footer {
+    height: unset;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-menu,
+  .footer-social {
+    line-height: 3;
+  }
+
+  .footer-menu {
+    margin-bottom: 30px;
+  }
+
+  .footer-social {
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width:768px) and (max-width: 991px) {
+
+  header .nav-item {
+    flex-direction: column;
+  }
+
+  header .dropdown-menu {
+    left: unset;
+    right: unset;
+  }
+
+
+  .data-entry .form-select {
+    width: 28%;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .form-select .select-radio {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .form-select .select-radio label {
+    font-size: 14px;
+  }
+
+  .data-entry .nice-select {
+    width: 35%;
+  }
+
+  .nice-select:after {
+    margin-top: -1px;
+  }
+
+  .data-entry .filename {
+    width: 65%;
+  }
+
+  .data-entry .filename .btn-primary {
+    width: 22%;
+    font-size: 14px;
+  }
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+
+  .modal-dialog {
+    max-width: 685px;
+    margin: 1.75rem auto;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+  header .nav-item {
+    flex-direction: column;
+  }
+
+  header .dropdown-menu {
+    left: unset;
+    right: unset;
+  }
+
+  .data-entry .form-select {
+    width: auto;
+  }
+
+  .form-select .select-radio {
+    margin-bottom: 15px;
+  }
+
+  .data-entry {
+    flex-direction: column;
+  }
+
+  .data-entry .nice-select,
+  .data-entry .filename,
+  .data-entry .filename input,
+  .data-entry .filename .btn-primary {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .data-entry .filename {
+    padding-left: 0;
+  }
+
+  .data-entry .filename .btn-primary {
+    margin-left: 0 !important;
+  }
+
+  .main-body .nav,
+  .task-menu .nav {
+    height: unset;
+  }
+
+  .main-body .nav .nav-link,
+  .task-menu .nav .nav-link {
+    padding: 17px 0px;
+  }
+
+  .main-body .nav .nav-item {
+    width: 50%;
+    text-align: center;
+  }
+
+  .dont-disturb-toggle {
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+  .chat-header {
+    height: unset;
+    padding: 7px 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .chat-header span {
+    margin-bottom: 15px;
+  }
+
+  .meta-info {
+    flex-direction: column;
+  }
+
+  .meta-info h5 {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .meta-info span {
+    font-size: 12px;
+  }
+
+  .message-details {
+    font-size: 13px;
+  }
+
+  .my-message .meta-info {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .message-input {
+    padding: 0 10px;
+  }
+
+  .message-input input,
+  .message-input input::placeholder {
+    font-size: 12px;
+  }
+
+  .send-message-btn {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+
+  .modal-footer .btn-primary,
+  .task-btn .btn-primary {
+    width: 100%;
+  }
+
+  .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+
+  .modal-content {
+    padding: 28px 35px;
+  }
+
+  .package-time,
+  .package-privacy,
+  .form-select {
+    flex-direction: column;
+  }
+
+  .package-time .time label,
+  .package-privacy .privet label {
+    font-size: 12px;
+  }
+
+  .package-time .time label:after,
+  .package-time .time label:before {
+    left: -15px;
+    top: -2px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+  }
+
+  .package-header {
+    padding: 15px 35px;
+  }
+
+  .package-time .time {
+    margin-right: 35px;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .time input[type="radio"]:checked+label:before {
+    font-size: 10px;
+  }
+
+  .package-privacy .privet {
+    margin-left: -26px;
+  }
+
+  .package-privacy .privet input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+  }
+
+  .package-privacy:before {
+    /* left: -58px;
+    height: 20px; */
+    display: none;
+  }
+
+  .package-body .description:before,
+  .package-body .description input {
+    height: 60px;
+  }
+
+  .nice-select,
+  .package-body .date,
+  .package-body .date input,
+  .package-body .budget input,
+  .package-body .entries-number input,
+  .package-body .budget {
+    width: 100%;
+  }
+
+  .package-body .description input::placeholder,
+  .package-body .date input::placeholder,
+  .package-body .budget input::placeholder,
+  .package-body .entries-number input::placeholder,
+  .nice-select,
+  .package-body .entry label {
+    font-size: 13px;
+  }
+
+  .package-body .date,
+  .nice-select {
+    margin-top: 9px;
+  }
+
+  .package-body .checkmark {
+    height: 15px;
+    width: 15px;
+  }
+
+  .package-body .per-entry .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 9px;
+  }
+
+  .package-body .per-entry {
+    padding-left: 25px;
+  }
+
+  .package-body .entries-number,
+  .package-body .description {
+    margin-bottom: 0;
+  }
+
+  .package-body .date .date-details span {
+    font-size: 13px;
+  }
+
+  .package-body .date .date-details i {
+    font-size: 18px;
+  }
+
+  .btn-primary {
+    padding: 9px 22px;
+    font-size: 13px;
+  }
+
+  .modal-footer {
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .package-time,
+  .package-privacy,
+  .form-select {
+    flex-direction: row;
+  }
+
+  .package-time .time {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+  .modal-dialog {
+    max-width: 300px;
+    margin: 1.75rem auto;
+  }
+
+  .modal-header {
+    margin-bottom: 20px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .package-header,
+  /* .package-time, */
+  .package-privacy {
+    flex-direction: column;
+  }
+
+  .package-time .time:last-child {
+    margin-right: 0;
+  }
+
+  /* .package-time {
+    margin-bottom: 10px;
+  } */
+
+}

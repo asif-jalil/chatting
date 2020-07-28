@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- title here -->
+  <title>Modal</title>
+
+  <!-- favicon here -->
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+
+  <!-- all CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+
+
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+
+  <header class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#main-nav"
+          aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown account">
+              <a class="nav-link dropdown-toggle" href="#" id="dashboard" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                John <img src="img/1.png" alt="account holder">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dashboard">
+                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="#">Account</a>
+                <a class="dropdown-item" href="#">Settings</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9">
+          <div class="data">
+
+
+            <div class="data-entry">
+              <div class="form-select">
+                <div class="select-radio">
+                  <input type="radio" id="template" name="form-select" value="tamplate" />
+                  <label for="template">tamplate</label>
+                </div>
+
+                <div class="select-radio">
+                  <input type="radio" id="data-entries" name="form-select" value="data entries" checked />
+                  <label for="data-entries">data entries</label>
+                </div>
+              </div>
+
+              <select class="data-catagory">
+                <option data-display=""></option>
+                <option value="1">Some option</option>
+                <option value="2">Another option</option>
+                <option value="4">Potato</option>
+              </select>
+
+              <div class="filename">
+                <input type="text" placeholder="New Filename">
+                <button class="btn btn-primary">BUILD</button>
+              </div>
+            </div>
+
+            <div class="main-body">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link" id="latest-tab" data-toggle="pill" href="#latest" role="tab"
+                    aria-controls="latest" aria-selected="true"><i class="fas fa-clock"></i> Latest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" id="message-tab" data-toggle="pill" href="#messages" role="tab"
+                    aria-controls="messages" aria-selected="false"><i class="fas fa-comment-alt"></i> Messages</a>
+                </li>
+                <li class="nav-item ml-auto dont-disturb-toggle"> Don't Disturb
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade latest" id="latest" role="tabpanel" aria-labelledby="latest-tab">
+                  <div class="latest-item">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                      totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                      numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
+                      ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                      ex ea commodi consequatur?</p>
+                  </div>
+
+                  <div class="latest-item">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                      totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                      numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
+                      ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                      ex ea commodi consequatur?</p>
+                  </div>
+
+                  <div class="latest-item">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                      totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                      sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                      numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
+                      ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                      ex ea commodi consequatur?</p>
+                  </div>
+                </div> <!-- latest tab end -->
+
+                <div class="tab-pane fade show active messages" id="messages" role="tabpanel"
+                  aria-labelledby="message-tab">
+                  <div class="row messages-gutter">
+                    <div class="col-md-3">
+                      <div class="search-field">
+                        <i class="fal fa-search"></i>
+                        <input type="text" placeholder="Search">
+                      </div>
+                      <div class="chat-list">
+                        <div class="sender online">
+                          <h5><a href="#">Test person 1</a></h5>
+                          <a href="#"><i class="fal fa-cog"></i></a>
+                        </div>
+                        <div class="sender">
+                          <h5><a href="#">New Account</a></h5>
+                          <a href="#"><i class="fal fa-cog"></i></a>
+                        </div>
+                        <div class="sender">
+                          <h5><a href="#">Johan</a></h5>
+                          <a href="#"><i class="fal fa-cog"></i></a>
+                        </div>
+                      </div>
+                    </div> <!-- col end -->
+
+                    <div class="col-md-9">
+                      <div class="chat-header">
+                        <span>you are chatting with jehan...</span>
+                        <a href="#">view profile</a>
+                      </div>
+                      <div class="chat-body">
+                        <div class="sender-message">
+                          <div class="message-meta">
+                            <img src="img/chat-thumb-sender.png" alt="johan">
+                            <div class="meta-info">
+                              <h5>johan</h5>
+                              <span>11:12 AM, 12/12/19</span>
+                            </div>
+                          </div>
+                          <div class="message-details">
+                            This is some test message …
+                          </div>
+                        </div>
+
+                        <div class="my-message">
+                          <div class="message-meta">
+                            <img src="img/chat-thumb-mine.png" alt="asif">
+                            <div class="meta-info">
+                              <h5>me</h5>
+                              <span>11:12 AM, 12/12/19</span>
+                            </div>
+                          </div>
+                          <div class="message-details">
+                            This is second message
+                          </div>
+                        </div>
+
+                        <div class="sender-message">
+                          <div class="message-meta">
+                            <img src="img/chat-thumb-sender.png" alt="johan">
+                            <div class="meta-info">
+                              <h5>johan</h5>
+                              <span>11:12 AM, 12/12/19</span>
+                            </div>
+                          </div>
+                          <div class="message-details">
+                            Another message
+                          </div>
+                        </div>
+                        <div class="message-input">
+                          <input type="text" placeholder="Type the message...">
+                          <button class="button send-message-btn">send</button>
+                        </div>
+                      </div>
+                    </div> <!-- col end -->
+                  </div> <!-- inner row end -->
+                </div> <!-- message tab end -->
+              </div>
+            </div> <!-- main-body end -->
+          </div>
+        </div> <!-- col end -->
+
+        <div class="col-xl-3">
+          <div class="task-menu">
+            <!-- Button trigger modal -->
+            <div class="task-btn">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newTask">
+                new task
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="newTask" tabindex="-1" role="dialog" aria-labelledby="newTaskTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Create New Task</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="package-header">
+                      <div class="package-time">
+                        <div class="time">
+                          <input type="radio" id="huey" name="time" value="monthly" />
+                          <label for="huey">monthly</label>
+                        </div>
+
+                        <div class="time">
+                          <input type="radio" id="dewey" name="time" value="onetime" checked />
+                          <label for="dewey">one time</label>
+                        </div>
+                      </div>
+
+                      <div class="package-privacy">
+                        <div class="privet">
+                          <input type="checkbox" id="make-private" name="privacy" value="make privaet" />
+                          <label for="louie">make privaet</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="package-body">
+                      <div class="description">
+                        <input type="text" placeholder="Description">
+                      </div>
+
+                      <div class="input-row">
+                        <select class="invite">
+                          <option data-display="Invite Favorites">Select one</option>
+                          <option value="1">Some option</option>
+                          <option value="2">Another option</option>
+                          <option value="4">Potato</option>
+                        </select>
+
+                        <div class="date">
+                          <input type="text" placeholder="Due date">
+                          <div class="date-details">
+                            <span>2020-02-31</span>
+                            <a href="#"><i class="fas fa-calendar-alt"></i></a>
+                          </div>
+                        </div>
+
+                        <div class="budget">
+                          <input type="text" placeholder="Budget">
+                        </div>
+                      </div>
+
+                      <div class="entry">
+                        <label class="per-entry">Per Entry
+                          <input type="checkbox" id="per-entry" name="entry" value="Per Entry" checked="checked">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+
+                      <div class="input-row">
+                        <div class="entries-number">
+                          <input type="text" placeholder="#Entries">
+                        </div>
+
+                        <select class="invite">
+                          <option data-display="Invite Favorites">Select one</option>
+                          <option value="1">Some option</option>
+                          <option value="2">Another option</option>
+                          <option value="4">Potato</option>
+                        </select>
+
+                        <select class="invite">
+                          <option data-display="Invite Favorites">Select one</option>
+                          <option value="1">Some option</option>
+                          <option value="2">Another option</option>
+                          <option value="4">Potato</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Create</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="all-task-tab" data-toggle="pill" href="#all-task-list" role="tab"
+                  aria-controls="all-task-list" aria-selected="true"><i class="fas fa-list-alt"></i> all task</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="my-task-tab" data-toggle="pill" href="#my-task-list" role="tab"
+                  aria-controls="my-task-list" aria-selected="false"><i class="fas fa-id-badge"></i> my task</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active all-task" id="all-task-list" role="tabpanel"
+                aria-labelledby="all-task-tab">
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00, OT 0 E</h6>
+                  <span>12/12/19</span>
+                </div>
+              </div>
+
+              <div class="tab-pane fade my-task" id="my-task-list" role="tabpanel" aria-labelledby="my-task-tab">
+                <div class="list-item">
+                  <h6>*NEW* $150.00</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $150.0</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $160.00</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $180.00</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00</h6>
+                  <span>12/12/19</span>
+                </div>
+                <div class="list-item">
+                  <h6>*NEW* $123.00</h6>
+                  <span>12/12/19</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- row end -->
+    </div> <!-- container end -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-1"></div>
+
+        <div class="col-xl-9 text-center">
+          <ul class="footer-menu">
+            <li><a href="#">new ticket</a></li>
+            <li><a href="#">gmail</a></li>
+            <li><a href="#">search</a></li>
+            <li><a href="#">feedback</a></li>
+            <li><a href="#">report</a></li>
+            <li><a href="#">bugs</a></li>
+            <li><a href="#">kb support</a></li>
+            <li><a href="#">kb</a></li>
+            <li><a href="#">support</a></li>
+            <li><a href="#">917</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xl-2">
+          <ul class="footer-social">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery JS -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="js/vendor/jquery-3.4.1.min.js"></script>
+
+  <!-- bootstrap JS -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- nice select JS -->
+  <script src="js/jquery.nice-select.min.js"></script>
+
+
+  <!-- main JS -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
